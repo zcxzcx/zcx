@@ -1,0 +1,133 @@
+/*=====================================头部===================================*/
+#header{
+    width: 100%;
+    height: 87px;
+    border-bottom:1px solid #ccc;
+    padding-top:20px;
+    box-sizing:border-box;
+    margin: 0 auto;
+    padding-left: 80px;
+}
+#header div{
+    float:right;
+    width: 400px;
+    padding-top: 10px;
+    color:#aaa;
+    padding-right:50px;
+}
+#header div img{
+    width: 40px;
+    height: 40px;
+    float:left;
+    padding-right:20px;
+}
+#header div a{
+    color:#F13B78;
+}
+
+
+/*====================================登录主体=================================*/
+#main{
+   width: 100%;
+   background-color:#FAFAFA;
+   padding-top: 40px;
+   box-sizing: border-box;
+}
+#main .layout{
+    width: 100%;
+    height: 490px;
+    /*margin: 20px auto;*/
+    position: relative;
+    /*z-index: 1;*/
+    font: 12px/20px "Hiragino Sans GB","Microsoft Yahei",arial,å®‹ä½“,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; 
+}
+#main .layout .mainLeft{
+    width: 450px;
+    height: 350px;
+    background: url("../images/shoppingCar/4.jpg") no-repeat;
+}
+#main .mainRight{
+    margin-top: 30px;
+    width: 480px;
+    height: 450px;
+    border: 1px solid #ddd;
+    position: absolute;
+    right: 0px;
+    top: 0px; 
+    background: #fff; 
+}
+.mainRight h3{
+    height: 60px;
+    border: 1px solid #E6E6E6;
+    margin-bottom: 30px;
+}
+.mainRight h3 span{
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 72px;
+    color: #999999;
+}
+.mainRight .formcontent{
+     width: 350px;
+     margin: 0 auto; 
+}
+.formcontent dl dd{
+    width: 350px;
+    height: 52px;
+    border: 1px solid #ddd;
+    line-height: 52px;
+    color: #666666;
+    text-indent: 15px;
+    font-size: 12px; 
+}
+.formcontent dl dd input{
+    width: 330px;
+    height: 48px;
+    /*text-indent: 15px;*/
+    display: inline-block;  
+}
+.formcontent dl dd input#checkcode{
+    width: 150px;
+}
+.formcontent dl dd span.code{
+    text-align: center;
+    display: inline-block;
+    float: right;
+    width: 120px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+.formcontent dl dd input#checkbox{
+    width: 15px;
+    height: 15px;
+}
+/*.formcontent dl dd span.code{ 
+ 
+  width: 220px;
+  height: 152px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 10px;
+}*/
+.formcontent dl dd.autolog span{
+     float: right;
+     color: #EF3C79; ; 
+}
+#logForm input#logBtn{
+     background: #EF3C79;
+      width: 350px;
+      height: 40px;
+      border-radius: 10px;
+      color: white;
+      margin-left: 70px;
+      margin-top: 20px;
+}
+
+
+/*=====================================底部====================================*/
+#footer{
+  width: 988px;
+  margin: 0 auto; 
+}

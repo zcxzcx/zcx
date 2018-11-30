@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>购物车页面</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/shoppingCar.css" />
+    <link rel="stylesheet" type="text/css" href="../css/iconfont/download/font_h1m3mw560m7/iconfont.css" />
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../lib/jqueryWflbt/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/shoppingCar.js"></script>
+</head>
+<body>
+    <!-- ===================================头部==============================-->
+    <header>
+        <article>
+            <section id="user">
+                <div class="user_left">
+                    <a href="#"">收藏</a>
+                </div>
+                <div class="user_right">
+                	<ul>
+                	<a href="../index.html">首页</a>
+					<a href="login.html">请登录</a>
+					<a></a>
+					<a href="">退出</a>
+					<a href="register.html">免费注册</a>
+					<span>|</span>
+					<font id="fontShoppingCart">购物车
+						<a>0</a>件</font>
+						<a href=""#>我的家有</a>
+						<font id="fontDiscount">可用优惠劵
+							<a href="#">0</a>张</font>
+						<a href="#">我的收藏</a><span>|</span>
+                  
+                    </ul>
+                    <ul>
+                        <h6>手机版</h6>
+                        
+                        <li><img src="../images/logo3.png" style="width: 100px;height: 100px;" alt=""></li>
+                    </ul>
+                    <ul>
+                        <h6>微信版</h6>
+                        <li><img src="../images/logo4.jpg" style="width: 100px;height: 100px;" alt=""></li>
+                        <li><img src="../images/logo5.jpg" style="width: 100px;height: 100px;" alt=""></li>
+                       
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </header>
+    <!-- =================================购物车主体========================= -->
+    <main>
+        <article>
+            <section class="top">
+                <a href="../index.html"><img src="../images/logo2.jpg" alt="" class="logo"/></a>
+                <ul class="progress">
+                    <li>
+                        <i class="iconfont icon-gouwuche"></i>
+                        <sub></sub>
+                        <div></div>
+                        <p>我的购物车</p>
+
+                    </li>
+                    <li>
+                        <i class="iconfont icon-icon-pencil"></i>
+                        <sub></sub>
+                        <div></div>
+                        <p>确认结算</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-ziyuan"></i>
+                        <sub></sub>
+                        <div></div>
+                        <p>支付提交</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-weibiaoti-"></i>
+                        <sub></sub>
+                        <div></div>
+                        <p>订单完成</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="none">
+                <img src="../images/shoppingCar/none.png" alt="" />
+                <p>你的购物车还没有商品</p>
+                <p>
+                    <button class="ToShop">马上去购物</button>
+                    <button>查看自己的订单</button>
+                </p>
+                
+            </section>
+            <section class="shoppingcar">
+                <h3>我的购物车</h3>
+                <h5>查看购物车商品清单，增加减少商品数量，并勾选想要的商品进入下一步操作。</h5>
+                <div class="yourItems">
+                    <span><input type="checkbox" id="allchecked"/>全选</span>
+                    <span>商品</span>
+                    <span>单价(元)</span>
+                    <span>数量</span>
+                    <span>小计(元)</span>
+                    <span>操作</span>
+                </div>
+                <p class="store">店铺：百洋跨境免税自营店</p>
+
+                <table class="items">
+                    <!-- n行五列的table -->
+                </table>
+                <section class="total">
+                    <p>商品总价：<span class="_total">0.00</span> +税费合计： <span>0.00</span></p>
+                    <p>商品总价(不含运费)  <span class="total_price">0.00</span>元 <button>确认结算</button></p>
+                </section> 
+            </section>
+        </article>
+    </main>
+
+    <!-- ==================================底部============================== -->
+    <footer>
+        <section>
+            <img src="images/baozhang.jpg" alt="" />
+            <section class="all_links">
+                <div id="follw_us">
+                    <img src="../images/logo2.jpg" alt="" />
+                   
+                </div>
+                <ul id="links">
+                    <li><p>关于我们</p>
+                        <ul>
+                            <li><a href="#">公司介绍</a></li>
+                            <li><a href="#">招聘信息</a></li>
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">用户隐私条款</a></li>
+                        </ul>
+                    </li>
+                    <li><p>订购指南</p>
+                        <ul>
+                            <li><a href="#">交易条款</a></li>
+                            <li><a href="#">注册/购物流程</a></li>
+                            <li><a href="#">退/换货</a></li>
+                            <li><a href="#">积分说明</a></li>
+                            <li><a href="#">发票指南</a></li>
+                            <li><a href="#">会员制度说明</a></li>
+                        </ul>
+                    </li>
+                    <li><p>配送服务</p>
+                        <ul>
+                            <li><a href="#">配送区域</a></li>
+                            <li><a href="#">配送时间</a></li>
+                            <li><a href="#">验货与签收</a></li>
+                        </ul>
+                    </li>
+                    <li><p>支付方式</p>
+                        <ul>
+                            <li><a href="#">网上支付</a></li>
+                            <li><a href="#">货到付款</a></li>
+                        </ul>
+                    </li>
+                    <li><p>合作专区</p>
+                        <ul>
+                            <li><a href="#">成为供应商</a></li>
+                            <li><a href="#">供应商系统</a></li>
+                            <li><a href="#">合作伙伴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="qr_code">
+                    <p>
+                        <img src="../images/logo4.jpg" style="width: 100px;height: 100px; alt="" />
+                        <span>扫描进入微信商城</span>
+                    </p>
+                    <p>
+                        <img src="../images/logo5.jpg" style="width: 100px;height: 100px; alt="" />
+                        <span>扫描下载惠家有APP</span>
+                    </p>
+                    
+                </div>
+            </section>
+            <section class="foot">
+                <p class="bottom">友情链接：
+						<a href=""> 南京手机报价</a>
+						<a href="">竞拍</a>
+						<a href="">奥莱购</a>
+						<a href="">商品百科</a></p>
+                <p class="bottom">
+                    Copyright © 2008-2013 huijiayou.cn
+						<a num="202050-31">家有购物集团有限公司北京分公司</a> 版权所有 京ICP备14011161号-5 增值电信业务经营许可证：黔B2-20120036
+                </p>
+            </section>
+            
+        </section>
+    </footer>
+</body>
+</html>
+

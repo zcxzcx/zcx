@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>列表页面</title>
+    <script type="text/javascript" src="../lib/jqueryWflbt/scripts/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/iconfont/download/font_5nvmzqyri6j/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/goodslist.css" />
+    <script type="text/javascript" src="../lib/page/jqueryPagination/js/jquery.pagination.min.js"></script>
+    <script type="text/javascript" src="../js/goodslist.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+     <!-- ===================================头部==============================-->
+    <header>
+        <article>
+            <section id="user">
+                <div class="user_left">
+                    <a href="#"">收藏</a>
+                </div>
+                <div class="user_right">
+                	<ul>
+                	<a href="../index.html">首页</a>
+					<a href="login.html">请登录</a>
+					<a></a>
+					<a href="">退出</a>
+					<a href="register.html">免费注册</a>
+					<span>|</span>
+					<font id="fontShoppingCart">购物车
+						<a>0</a>件</font>
+						<a href=""#>我的家有</a>
+						<font id="fontDiscount">可用优惠劵
+							<a href="#">0</a>张</font>
+						<a href="#">我的收藏</a><span>|</span>
+                  
+                    </ul>
+                    <ul>
+                        <h6>手机版</h6>
+                        
+                        <li><img src="../images/logo3.png" style="width: 100px;height: 100px;" alt=""></li>
+                    </ul>
+                    <ul>
+                        <h6>微信版</h6>
+                        <li><img src="../images/logo4.jpg" style="width: 100px;height: 100px;" alt=""></li>
+                        <li><img src="../images/logo5.jpg" style="width: 100px;height: 100px;" alt=""></li>
+                       
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </header>
+
+    <!-- ====================================导航============================= -->
+    <nav></nav>
+
+    <!-- ====================================列表主体========================= -->
+    <main class="clearfix">
+        <div class="fix_car"></div>
+        <article class="little_main">
+             <h3 class="path"></h3>
+             <ul class="sortBox">
+                 <li>排序方式：</li>
+                 <li class="auto">默认</li>
+                 <li class="sales">销量</li>
+                 <li class="hot">人气</li>
+                 <li class="price">价格</li>
+                 <li>
+                     <input type="checkbox" />平台自营
+                     <input type="checkbox" />赠品
+                 </li>
+                 <li>
+                     <select name="select" id="select" value="">
+                         <option value="">请选择</option>
+                         <option value="一般贸易">一般贸易</option>
+                         <option value="保税备货">保税备货</option>
+                         <option value="跨境直邮">跨境直邮</option>
+                     </select>
+                 </li>
+                 <li>
+                     商品所在地:<span>不限地区▼</span>
+                     <p class="page1">
+                        <span>上一页</span>
+                        <span>下一页</span>
+                    </p>
+                 </li>
+             </ul>
+             <section>
+                 <ul id="goodslists">
+                 </ul>
+             </section>
+            <div class="box">
+                <div id="pagination2" class="page fl"></div>
+           
+            </div>
+        </article>
+    </main>
+
+    <!-- =====================================底部============================ -->
+    <footer>
+        <section>
+            <img src="images/baozhang.jpg" alt="" />
+            <section class="all_links">
+                <div id="follw_us">
+                    <img src="../images/logo2.jpg" alt="" />
+                   
+                </div>
+                <ul id="links">
+                    <li><p>关于我们</p>
+                        <ul>
+                            <li><a href="#">公司介绍</a></li>
+                            <li><a href="#">招聘信息</a></li>
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">用户隐私条款</a></li>
+                        </ul>
+                    </li>
+                    <li><p>订购指南</p>
+                        <ul>
+                            <li><a href="#">交易条款</a></li>
+                            <li><a href="#">注册/购物流程</a></li>
+                            <li><a href="#">退/换货</a></li>
+                            <li><a href="#">积分说明</a></li>
+                            <li><a href="#">发票指南</a></li>
+                            <li><a href="#">会员制度说明</a></li>
+                        </ul>
+                    </li>
+                    <li><p>配送服务</p>
+                        <ul>
+                            <li><a href="#">配送区域</a></li>
+                            <li><a href="#">配送时间</a></li>
+                            <li><a href="#">验货与签收</a></li>
+                        </ul>
+                    </li>
+                    <li><p>支付方式</p>
+                        <ul>
+                            <li><a href="#">网上支付</a></li>
+                            <li><a href="#">货到付款</a></li>
+                        </ul>
+                    </li>
+                    <li><p>合作专区</p>
+                        <ul>
+                            <li><a href="#">成为供应商</a></li>
+                            <li><a href="#">供应商系统</a></li>
+                            <li><a href="#">合作伙伴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="qr_code">
+                    <p>
+                        <img src="../images/logo4.jpg" style="width: 100px;height: 100px; alt="" />
+                        <span>扫描进入微信商城</span>
+                    </p>
+                    <p>
+                        <img src="../images/logo5.jpg" style="width: 100px;height: 100px; alt="" />
+                        <span>扫描下载惠家有APP</span>
+                    </p>
+                    
+                </div>
+            </section>
+            <section class="foot">
+                <p class="bottom">友情链接：
+						<a href=""> 南京手机报价</a>
+						<a href="">竞拍</a>
+						<a href="">奥莱购</a>
+						<a href="">商品百科</a></p>
+                <p class="bottom">
+                    Copyright © 2008-2013 huijiayou.cn
+						<a num="202050-31">家有购物集团有限公司北京分公司</a> 版权所有 京ICP备14011161号-5 增值电信业务经营许可证：黔B2-20120036
+                </p>
+            </section>
+            
+        </section>
+    </footer>
+</body>
+
+</html>
